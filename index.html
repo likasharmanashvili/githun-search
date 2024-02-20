@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+     <style>
+ 
+        body{
+            background-color: #F6F8FF;
+            color: black;
+        }
+        .dark-mode {
+            background-color: #141D2F;
+            color: white;
+
+        }
+    </style> 
+
+<div class="header">
+    <h1>devfinder</h1>
+  <div class="but">
+    <button id="toggle_mode" > light <i class="fa-solid fa-sun"></i></i></i></button>
+    <button id="dark_mode" style="display: none;"> dark <i class="fa-solid fa-moon"></i></i></i></i></button>
+  </div>
+</div>
+
+    <main class="mains">
+        <input type="text" placeholder="Search GitHub username..." class="input">
+        <button class="search">Search</button>
+    <div id="content"></div>
+     </main>  
+
+     <div class="containermain">
+        <div class="text">
+    <img src="./img/c9df73994117881587b8837cdf38354a.png" alt="">
+           
+            <div class="textchild">
+                <h1>The Octocat</h1>
+                <p class="p1">@octocat</p>
+            <p class="p2">This profile has no bio</p>
+            </div>
+        </div>
+
+        <div class="followerC">
+            <div class="ptext">
+                <p>Repos</p>
+                <h1>8</h1>
+            </div>
+            <div class="ptext">
+                <p>Followers</p>
+                <h1>3938</h1>
+            </div>
+            <div class="ptext">
+                <p>Following</p>
+                <h1>9</h1>
+            </div>
+        </div>
+
+
+        <div class="location">
+            <div class="textL">
+                <p><i class="fa-solid fa-location-dot"></i> tbilisi </p>
+             <p> <i class="fa-brands fa-twitter"></i> Not Avalaible </p>
+            </div>
+            <div class="textB">
+                <p><i class="fa-solid fa-link"></i>  https://github.blog </p>
+                <p>@github</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
